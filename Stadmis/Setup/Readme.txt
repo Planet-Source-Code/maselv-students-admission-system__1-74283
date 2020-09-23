@@ -1,0 +1,1 @@
+Change the extension of {Stadmis Setup.sss} file to {Stadmis Setup.exe} and run to install the program with necessary files

@@ -1,0 +1,146 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Stadmis\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Stadmis Database Connector.udl=E:\Stadmis\Support Files\Stadmis Database Connector.udl
+Stadmis Database.mdb=C:\Users\TUTOR\Desktop\Stadmis\Stadmis Database.mdb
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Windows\System32\prjXTab.ocx=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Windows\System32\dao360.dll=
+C:\Program Files\Common Files\System\ado\msado21.tlb=
+C:\Windows\System32\msimg32.dll=
+C:\Program Files\Microsoft Office\Office14\MSACC.OLB=
+C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16385_none_ebf82fc36c758ad5\comctl32.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\mscomct2.ocx=
+C:\Windows\System32\comdlg32.ocx=
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\scrrun.dll=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+stadmis database connector.udl=
+stadmis database.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\msimg32.dll=Yes
+C:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+C:\Windows\System32\dao360.dll=Yes
+C:\Windows\System32\scrrun.dll=Yes
+C:\Windows\System32\msvcrt.dll=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\prjXTab.ocx=Yes
+C:\Windows\System32\comdlg32.ocx=Yes
+C:\Windows\System32\mscomct2.ocx=Yes
+C:\Windows\System32\MSCHRT20.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Stadmis\Stadmis.exe=Yes
+C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16385_none_ebf82fc36c758ad5\comctl32.dll=Yes
+C:\Program Files\Microsoft Office\Office14\MSACC.OLB=Yes
+E:\Stadmis\Support Files\Stadmis Database Connector.udl=Yes
+C:\Users\TUTOR\Desktop\Stadmis\Stadmis Database.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\VICTOR  MASWI MWITA\Desktop\Stadmis\Stadmis.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\msimg32.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Windows\System32\dao360.dll=$(WinSysPath)
+C:\Windows\System32\scrrun.dll=$(WinSysPath)
+C:\Windows\System32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\prjXTab.ocx=$(WinSysPath)
+C:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+C:\Windows\System32\MSCHRT20.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\VICTOR  MASWI MWITA\Desktop\Stadmis\Support Files\Stadmis Database Connector.udl=$(AppPath)
+C:\Users\VICTOR  MASWI MWITA\Desktop\Stadmis\Stadmis Database.mdb=$(AppPath)
+E:\Stadmis\Stadmis.exe=$(AppPath)
+C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16385_none_ebf82fc36c758ad5\comctl32.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office14\MSACC.OLB=$(WinSysPath)
+E:\Stadmis\Support Files\Stadmis Database Connector.udl=$(AppPath)
+C:\Users\TUTOR\Desktop\Stadmis\Stadmis Database.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\VICTOR  MASWI MWITA\Desktop\Stadmis\Stadmis.exe=No
+C:\Users\VICTOR  MASWI MWITA\Desktop\Stadmis\Support Files\Stadmis Database Connector.udl=No
+C:\Users\VICTOR  MASWI MWITA\Desktop\Stadmis\Stadmis Database.mdb=Yes
+E:\Stadmis\Stadmis.exe=No
+E:\Stadmis\Support Files\Stadmis Database Connector.udl=No
+C:\Users\TUTOR\Desktop\Stadmis\Stadmis Database.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Stadmis
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Stadmis
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Stadmis]
+Icon1=Stadmis.exe
+Title1=Stadmis
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Stadmis\Package
+ProjectFolder=E:\Stadmis
+ServerSideCab=
+File1=E:\Stadmis\Package\setup.exe
+File2=E:\Stadmis\Package\Setup.Lst
+File3=E:\Stadmis\Package\Stadmis.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
